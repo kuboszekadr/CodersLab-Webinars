@@ -1,16 +1,11 @@
-# Webinar 2021-07-08
+# About
 
-## Opis repozytorium
+Repozytorium zostało stworzone na potrzeby przeprowadzenia webinaru dla `CodersLab` w trakcie którego będziemy poruszać tematy związane z analizą danych. W tym momencie opracowane tutaj zostały dwa webinary:
 
-Repozytorium zostało stworzone na potrzeby przeprowadzenia webinaru dla `CodersLab` w trakcie którego będziemy rozmawiać o pythonie w analize danych i prezentować wybrane metody z biblioteki `Pandas` oraz `Matplotlib`, które są podstawym narzędziem w obróbce danych przy użyciu `python`a, stanowiąc przy tym bardzo dobrą alternatywę dla arkuszy kalkulacyjnych typu `Excel`. 
+* WDA (wstęp do analizy danych) - podstawowy kurs, gdzie uczestnik będzie mógł zapoznać się z procesem analizy danych przy użyciu Excela. W trakcie tego spotkania będziemy obrabiać jeden ze standarowych zbiorów - `titanic`.
 
-## O webinarze
+* PAD (python w analizie danych) - kontynuacja kursu, która wprowadza kursanta w zastosowanie `python'a` we współczesnej analizie danych i daje możliwość obróbki danych, których `Excel` zwyczajnie nie jest w stanie nawet otworzyć ze względu na rozmiar (ponad 1.2m wierszy) lub praca nad plikiem jest skranie nieefektywna (ponad 50MB lub więcej w zależności od maszyny).
 
-W trakcie webinaru będziemy prezentować w jaki sposób można dokonać analizy danych przy użyciu `Python` na podstawie klasycznego zbioru danych - [titanic](https://www.kaggle.com/c/titanic).
-
-## Plan działania:
-1. Wczytanie danych do analizy,
-1. Zapoznanie się ze strukturą danych po zaimportowaniu do `Pandas`,
-1. Wyznaczenie unikalnych wartości w obrębie poszczególnych kolumn,
-1. Podstawowe techniki agregacji,
-1. Graficzna reprezentacja wyników.
+Do każdego folderu jest dedykowany folder i tak:
+* folder `WDA` zawiara materiały z webinaru __Wstęp do analizy danych__.
+* folder `PAD` zawiera materiały z webinarów __Python w analizie danych__ i ze względu na ewolucję kursu, początkowo omawiany był tutaj `titanic`, jednak aktualnie omawiany będzie `airline deleys` - również pobrany z `kaggle` (TODO).
